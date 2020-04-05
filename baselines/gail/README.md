@@ -1,6 +1,6 @@
-# Generative Adversarial Imitation Learning (GAIL)
+# Generative Adversarial Imitation Learning \(GAIL\)
 
-- Original paper: https://arxiv.org/abs/1606.03476
+* Original paper: [https://arxiv.org/abs/1606.03476](https://arxiv.org/abs/1606.03476)
 
 For results benchmarking on MuJoCo, please navigate to [here](result/gail-result.md)
 
@@ -24,29 +24,29 @@ Run with multiple ranks:
 mpirun -np 16 python -m baselines.gail.run_mujoco
 ```
 
-See help (`-h`) for more options.
+See help \(`-h`\) for more options.
 
-#### In case you want to run Behavior Cloning (BC)
+#### In case you want to run Behavior Cloning \(BC\)
 
 ```bash
 python -m baselines.gail.behavior_clone
 ```
 
-See help (`-h`) for more options.
-
+See help \(`-h`\) for more options.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/openai/baselines/pulls.
+Bug reports and pull requests are welcome on GitHub at [https://github.com/openai/baselines/pulls](https://github.com/openai/baselines/pulls).
 
 ## Maintainers
 
-- Yuan-Hong Liao, andrewliao11_at_gmail_dot_com
-- Ryan Julian, ryanjulian_at_gmail_dot_com
+* Yuan-Hong Liao, andrewliao11\_at\_gmail\_dot\_com
+* Ryan Julian, ryanjulian\_at\_gmail\_dot\_com
 
 ## Others
 
 Thanks to the open source:
 
-- @openai/imitation
-- @carpedm20/deep-rl-tensorflow
+* @openai/imitation
+* @carpedm20/deep-rl-tensorflow
+
